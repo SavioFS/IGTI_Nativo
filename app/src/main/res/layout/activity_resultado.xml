@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resultado">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="195dp"
+        android:layout_marginHorizontal="15dp"
+        tools:layout_editor_absoluteY="344dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RESULTADO"
+            android:textAlignment="center"
+            android:textColor="#060E61"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:text="Salário Bruto"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label_salBruto"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:text="0,00"
+                android:textAlignment="textEnd"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:text="INSS"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label_inss"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:text="0,00"
+                android:textAlignment="textEnd"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:text="IRRF"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label_IRFF"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:text="0,00"
+                android:textAlignment="textEnd"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:text="Outros Descontos"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label_outrosDescontos"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:text="0,00"
+                android:textAlignment="textEnd"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:text="Salário Líquido"
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label_salLiquido"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:text="0,00"
+                android:textAlignment="textEnd"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:text="Descontos"
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label_descontos"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:text="0,00"
+                android:textAlignment="textEnd"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
